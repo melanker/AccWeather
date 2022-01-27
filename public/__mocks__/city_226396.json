@@ -1,0 +1,25 @@
+[
+  {
+    "LocalObservationDateTime": "2022-01-26T16:13:00+09:00",
+    "EpochTime": 1643181180,
+    "WeatherText": "Mostly sunny",
+    "WeatherIcon": 2,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 7.8,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 46,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/jp/tokyo/226396/current-weather/226396?lang=en-us",
+    "Link": "http://www.accuweather.com/en/jp/tokyo/226396/current-weather/226396?lang=en-us"
+  }
+]

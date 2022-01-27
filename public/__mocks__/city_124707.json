@@ -1,0 +1,25 @@
+[
+  {
+    "LocalObservationDateTime": "2022-01-26T09:23:00+02:00",
+    "EpochTime": 1643181780,
+    "WeatherText": "Snow",
+    "WeatherIcon": 22,
+    "HasPrecipitation": true,
+    "PrecipitationType": "Snow",
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 2.4,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 36,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/cy/alona/124707/current-weather/124707?lang=en-us",
+    "Link": "http://www.accuweather.com/en/cy/alona/124707/current-weather/124707?lang=en-us"
+  }
+]

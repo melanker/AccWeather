@@ -1,0 +1,92 @@
+[
+  {
+    "Version": 1,
+    "Key": "215793",
+    "Type": "City",
+    "Rank": 95,
+    "LocalizedName": "Tel-aviv Port",
+    "Country": {
+      "ID": "IL",
+      "LocalizedName": "Israel"
+    },
+    "AdministrativeArea": {
+      "ID": "TA",
+      "LocalizedName": "Tel Aviv"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "226396",
+    "Type": "City",
+    "Rank": 10,
+    "LocalizedName": "Tokyo",
+    "Country": {
+      "ID": "JP",
+      "LocalizedName": "Japan"
+    },
+    "AdministrativeArea": {
+      "ID": "13",
+      "LocalizedName": "Tokyo"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "328328",
+    "Type": "City",
+    "Rank": 10,
+    "LocalizedName": "London",
+    "Country": {
+      "ID": "GB",
+      "LocalizedName": "United Kingdom"
+    },
+    "AdministrativeArea": {
+      "ID": "LND",
+      "LocalizedName": "London"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "290860",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Zorani",
+    "Country": {
+      "ID": "RO",
+      "LocalizedName": "Romania"
+    },
+    "AdministrativeArea": {
+      "ID": "TM",
+      "LocalizedName": "Timiș"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "3464015",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Golan",
+    "Country": {
+      "ID": "ID",
+      "LocalizedName": "Indonesia"
+    },
+    "AdministrativeArea": {
+      "ID": "JI",
+      "LocalizedName": "East Java"
+    }
+  },
+  {
+    "Version": 1,
+    "Key": "124707",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "Alona",
+    "Country": {
+      "ID": "CY",
+      "LocalizedName": "Cyprus"
+    },
+    "AdministrativeArea": {
+      "ID": "01",
+      "LocalizedName": "Nicosia"
+    }
+  }
+]

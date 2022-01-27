@@ -1,25 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from "./views/Home/Home";
+import Favorites from "./views/Favorites/Favorites";
+import {Route, Routes} from "react-router-dom";
+import Header from "./components/Header/Header";
+import {createTheme, ThemeProvider, styled} from "@mui/material";
+import {useMemo, useState} from "react";
+
+const AppContainer = styled('div')`
+  background-color: ${(props) => props.theme.palette.background.paper};
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+`
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [mode, setMode] = useState('light');
+
+    const changeMode = (mode) => {
+        setMode(mode)
+    }
+
+    // Update the theme only if the mode changes
+    const theme = useMemo(() => createTheme({
+        palette: {
+            mode
+        }
+    }), [mode]);
+
+    return (
+        <ThemeProvider theme={theme}>
+            <AppContainer>
+                <Header changeMode={changeMode} mode={mode}/>
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="favorites" element={<Favorites/>}/>
+                </Routes>
+            </AppContainer>
+        </ThemeProvider>
+    );
 }
 
 export default App;

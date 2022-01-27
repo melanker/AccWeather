@@ -1,0 +1,25 @@
+[
+  {
+    "LocalObservationDateTime": "2022-01-26T09:48:00+02:00",
+    "EpochTime": 1643183280,
+    "WeatherText": "Mostly cloudy",
+    "WeatherIcon": 6,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": -4.2,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 24,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/ro/zorani/290860/current-weather/290860?lang=en-us",
+    "Link": "http://www.accuweather.com/en/ro/zorani/290860/current-weather/290860?lang=en-us"
+  }
+]

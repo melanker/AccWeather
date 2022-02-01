@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {memo, useState} from 'react';
 import {Autocomplete as MuiAutocomplete, styled, TextField} from "@mui/material";
 import {useDispatch} from "react-redux";
 import {setCurrentCity} from "../../../../features/weatherSlice";
@@ -9,6 +9,7 @@ const StyledAutocomplete = styled(MuiAutocomplete)`
 `
 
 const Autocomplete = () => {
+    console.log("RENDER Autocomplete")
     const [options, setOptions] = useState([]);
     const dispatch = useDispatch();
 
@@ -39,4 +40,4 @@ const Autocomplete = () => {
     );
 };
 
-export default Autocomplete;
+export default memo(Autocomplete);

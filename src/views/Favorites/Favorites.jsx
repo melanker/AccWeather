@@ -24,7 +24,7 @@ const Favorites = () => {
 
     useEffect(() => {
         dispatch(getCitiesWeather(favorites))
-    }, [])
+    }, [dispatch, favorites])
 
     const handleHeaderClick = (city) => {
         dispatch(setCurrentCity(city));

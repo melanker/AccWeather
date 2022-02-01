@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {memo} from 'react';
 import {Avatar, Card, CardContent, CardHeader, styled, Typography} from "@mui/material";
 import {useSelector} from "react-redux";
 import {nanoid} from "@reduxjs/toolkit";
@@ -27,8 +27,8 @@ const Row = styled('div')`
   flex: 1;
 `
 
-const ForecastRow = () => {
-    const {forecast} = useSelector(state => state?.weather);
+const ForecastRow = ({forecast}) => {
+    console.log('RENDER ForcastRow')
     const days = [
         'Sunday',
         'Monday',
@@ -82,4 +82,4 @@ const ForecastRow = () => {
     );
 };
 
-export default ForecastRow;
+export default memo(ForecastRow);

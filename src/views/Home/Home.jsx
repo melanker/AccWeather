@@ -24,7 +24,7 @@ const Home = () => {
                 <TitleRow>
                     {forecast?.Headline?.Text}
                 </TitleRow>
-                <ForecastRow/>
+                <ForecastRow forecast={forecast}/>
             </MuiPaper>
         </Container>
     );

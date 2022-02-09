@@ -3,13 +3,12 @@ import {Autocomplete as MuiAutocomplete, styled, TextField} from "@mui/material"
 import {useDispatch} from "react-redux";
 import {setCurrentCity} from "../../../../features/weatherSlice";
 
-const StyledAutocomplete = styled(MuiAutocomplete)`
+export const StyledAutocomplete = styled(MuiAutocomplete)`
   width: 200px;
   margin-bottom: 10px;
 `
 
 const Autocomplete = () => {
-    console.log("RENDER Autocomplete")
     const [options, setOptions] = useState([]);
     const dispatch = useDispatch();
 

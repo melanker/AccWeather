@@ -1,6 +1,5 @@
 import React, {memo} from 'react';
-import {Avatar, Card, CardContent, CardHeader, styled, Typography} from "@mui/material";
-import {useSelector} from "react-redux";
+import { Card, CardContent, CardHeader, styled, Typography} from "@mui/material";
 import {nanoid} from "@reduxjs/toolkit";
 
 const ForecastRowContainer = styled('div')`

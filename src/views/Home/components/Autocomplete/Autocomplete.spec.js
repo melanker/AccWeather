@@ -58,7 +58,6 @@ describe("Autocomplete", () => {
         fireEvent.input(inputElement, {target: {value: "Heya"}})
         const optionElements = await waitFor(() => screen.findAllByTestId(/option-id/i))
         expect(optionElements.length).toBe(2)
-        useDispatchSpy.mockClear();
     });
 
     it("Should renders options when onChange is triggered", async () => {
@@ -68,7 +67,6 @@ describe("Autocomplete", () => {
         fireEvent.change(inputElement, {target: {value: "Heya"}})
         fireEvent.change(inputElement, {target: {value: "Heya1"}})
         expect(mockDispatchFn).toHaveBeenCalledTimes(2);
-        useDispatchSpy.mockClear();
     });
 })
 

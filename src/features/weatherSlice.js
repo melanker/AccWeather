@@ -1,5 +1,4 @@
 import {createSlice, createAsyncThunk} from '@reduxjs/toolkit'
-import {Favorite} from "@mui/icons-material";
 
 const initialState = {
     currentCity: {
